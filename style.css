@@ -9,13 +9,27 @@ body {
 }
 
 .first-section {
-    background-color:#1F2937;
+    background-color: #1F2937;
 }
-#Header-link {
-    font-size: 18px;
-    color: #E5E7EB;
-}
-#Header-Logo {
+#header-Logo {
     font-size: 24px;
-    color: #F9FAF8;
+    color : #F9FAF8;
+}
+.header-link {
+    font-size: 18px;
+    color: #E5E7E8;
+}
+.topBar {
+    display: flex;
+    flex-direction: row;
+}
+ul {
+    display:flex;
+    flex-direction: row;
+}
+.topBar-left, .topBar-right {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
 }
