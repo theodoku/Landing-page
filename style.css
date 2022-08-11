@@ -41,11 +41,32 @@ h1 {
 .content {
     display: flex;
     flex-direction: row;
+    margin: 50px;
 }
 
-.content-left, .content-right {
+.content-left {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 50%;
+}
+.content-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+img {
+    margin: 50px;
+}
+.p-first {
+    font-size: 18px;
+    color: #E5E7E8;
+    margin-left: 90px;
+}
+.first-section-sign-up {
+    color: #3882F6;
+    margin-left: 90px;
 }
