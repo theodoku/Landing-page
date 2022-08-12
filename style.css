@@ -106,7 +106,7 @@ h2 {
 }
 .third-section {
     background-color: #E5E7EB;
-    height: 500px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -127,3 +127,18 @@ h3 {
     text-align: end;
     margin-right: 300px;
 }
+.forth-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:200px;
+}
+.blue-container {
+    background-color: #3882F6;
+    width: 70%;
+    height: 90px;
+}
+.left {
+    
+}
+
