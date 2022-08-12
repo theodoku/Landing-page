@@ -64,9 +64,25 @@ img {
 .p-first {
     font-size: 18px;
     color: #E5E7E8;
-    margin-left: 90px;
+    margin-left: 100px;
 }
 .first-section-sign-up {
-    color: #3882F6;
-    margin-left: 90px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    border: 1px;
+    margin-right: 250px;
+}
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+.row-of-blue-divs {
+    display: flex;
+    flex-direction: row;
+
 }
