@@ -84,5 +84,46 @@ h2 {
 .row-of-blue-divs {
     display: flex;
     flex-direction: row;
-
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 50px;
+}
+.blue-box {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #3882F6;
+    border-radius: 5px;
+}
+.second-section {
+    display: flex;
+    flex-direction: column;
+}
+.p-second {
+    font-size: 18pxs;
+    text-align: center;
+    margin: 10px;
+}
+.third-section {
+    background-color: #E5E7EB;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h3 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    text-align: center;
+}
+#p-div {
+    display: flex;
+    justify-content: flex-end;
+}
+.p-third {
+    font-size: 18px;
+    text-align: end;
+    margin-right: 300px;
 }
