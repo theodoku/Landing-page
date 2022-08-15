@@ -117,6 +117,7 @@ h3 {
     font-weight: lighter;
     color: #1F2937;
     text-align: center;
+    justify-content: flex-start;
 }
 #p-div {
     display: flex;
@@ -131,14 +132,55 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height:200px;
+    height:300px;
 }
 .blue-container {
     background-color: #3882F6;
     width: 70%;
-    height: 90px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    margin: 80px;
+    border-radius: 10px;
 }
 .left {
-    
+    width: 70%;
+    margin-left:50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
-
+.right {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+h4 {
+    color: white;
+    font-size: 18px;
+}
+.p-forth {
+    color: white;
+    justify-content: flex-start;
+    align-items: center;
+}
+.forth-section-sign-up {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    border:2px solid white
+}
+.last-section {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    height: 100px;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+}
+#last-div {
+    color: white;
+}
